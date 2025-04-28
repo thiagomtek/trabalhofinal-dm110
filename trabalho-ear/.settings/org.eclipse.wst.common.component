@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="trabalho-ear-1.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="trabalho-api-1.0.jar" deploy-path="/lib" handle="module:/resource/trabalho-api/trabalho-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="trabalho-ejb-1.0.jar" deploy-path="/" handle="module:/resource/trabalho-ejb/trabalho-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="modelmapper-2.4.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/modelmapper/modelmapper/2.4.2/modelmapper-2.4.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.jakartaee-api-10.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/platform/jakarta.jakartaee-api/10.0.0/jakarta.jakartaee-api-10.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.jakartaee-web-api-10.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/platform/jakarta.jakartaee-web-api/10.0.0/jakarta.jakartaee-web-api-10.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp-api-3.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.el-api-5.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.faces-api-4.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.ws.rs-api-3.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.websocket-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/websocket/jakarta.websocket-api/2.1.0/jakarta.websocket-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.websocket-client-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/websocket/jakarta.websocket-client-api/2.1.0/jakarta.websocket-client-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.json-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.json.bind-api-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.annotation-api-2.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.ejb-api-4.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.transaction-api-2.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.persistence-api-3.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.validation-api-3.0.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.interceptor-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.enterprise.cdi-api-4.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.enterprise.lang-model-4.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.inject-api-2.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.authentication-api-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/authentication/jakarta.authentication-api/3.0.0/jakarta.authentication-api-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.security.enterprise-api-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/security/enterprise/jakarta.security.enterprise-api/3.0.0/jakarta.security.enterprise-api-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.jms-api-3.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.activation-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.mail-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/mail/jakarta.mail-api/2.1.0/jakarta.mail-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.resource-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.authorization-api-2.1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/authorization/jakarta.authorization-api/2.1.0/jakarta.authorization-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.batch-api-2.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/jakarta/batch/jakarta.batch-api/2.1.1/jakarta.batch-api-2.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

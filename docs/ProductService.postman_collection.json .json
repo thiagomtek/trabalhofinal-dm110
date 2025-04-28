@@ -1,0 +1,77 @@
+{
+  "info": {
+    "name": "DM110 - Product Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "12345678-90ab-cdef-1234-567890abcdef"
+  },
+  "item": [
+    {
+      "name": "Create Product",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/trabalho/api/products",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["trabalho", "api", "products"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"code\": \"PRD001\",\n  \"name\": \"Product Name\",\n  \"description\": \"Product Description\",\n  \"price\": 99.99,\n  \"category\": \"Electronics\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Get Product by Code",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/trabalho/api/products/PRD001",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["trabalho", "api", "products", "PRD001"]
+        }
+      }
+    },
+    {
+      "name": "List All Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/trabalho/api/products",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["trabalho", "api", "products"]
+        }
+      }
+    },
+    {
+      "name": "Update Product",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/trabalho/api/products",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["trabalho", "api", "products"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"code\": \"PRD001\",\n  \"name\": \"Updated Product Name\",\n  \"description\": \"Updated Product Description\",\n  \"price\": 119.99,\n  \"category\": \"Home\"\n}"
+        }
+      }
+    }
+  ]
+}
